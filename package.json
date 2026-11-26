@@ -1,0 +1,23 @@
+{
+  "name": "dafler-proyecto-3",
+  "version": "1.0.0",
+  "description": "Backend GraphQL + MongoDB de la plataforma de tándem lingüístico (Producto 3, FP.450)",
+  "type": "module",
+  "private": true,
+  "author": "Grupo Dafler",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "vite": "^8.3.8",
+    "vite-node": "^6.0.0"
+  },
+  "scripts": {
+    "dev": "vite-node --watch src/index.js",
+    "dev:debug": "node --inspect node_modules/vite-node/dist/cli.mjs --watch src/index.js",
+    "build": "vite build",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}

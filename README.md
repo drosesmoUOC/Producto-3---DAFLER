@@ -26,10 +26,14 @@ Florian 1-4
 Daniel 
 Erik 
 
-
 ## Uso de IA
 
 ### Configuración de Express
-Herramienta utilizada: **ChatGPT** (OpenAI). Prompts introducidos:
 
-- "Dame un ejemplo de configuración básica de un servidor Express en JavaScript con ES modules que funcione solo como API, sin vistas, y que tenga una ruta /api/health para comprobar que está levantado."
+1. Herramienta utilizada: **ChatGPT** (OpenAI).
+"Dame un ejemplo de configuración básica de un servidor Express en JavaScript con ES modules que funcione solo como API, sin vistas, y que tenga una ruta /api/health para comprobar que está levantado."
+
+### Rutas, controladores y validaciones
+
+2. Herramienta utilizada: **ChatGPT** (OpenAI).
+"Dame un ejemplo de cómo organizar rutas, controladores y validaciones en Express con JavaScript, cada uno en su carpeta, para un CRUD de usuarios guardados en memoria con un Map."

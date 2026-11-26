@@ -25,3 +25,11 @@ Backend de la plataforma de tándem lingüístico: un servicio web con Express, 
 Florian 1-4
 Daniel 
 Erik 
+
+
+## Uso de IA
+
+### Configuración de Express
+Herramienta utilizada: **ChatGPT** (OpenAI). Prompts introducidos:
+
+- "Dame un ejemplo de configuración básica de un servidor Express en JavaScript con ES modules que funcione solo como API, sin vistas, y que tenga una ruta /api/health para comprobar que está levantado."

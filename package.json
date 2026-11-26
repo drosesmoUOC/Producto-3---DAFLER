@@ -1,0 +1,9 @@
+{
+  "name": "dafler-proyecto-3",
+  "version": "1.0.0",
+  "description": "Backend GraphQL + MongoDB de la plataforma de tándem lingüístico (Producto 3, FP.450)",
+  "type": "module",
+  "private": true,
+  "author": "Grupo Dafler",
+  "license": "UNLICENSED"
+}

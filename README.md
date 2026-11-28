@@ -41,3 +41,4 @@ Erik: 4-6
 ### GraphQL
 
 3. "Dame un ejemplo de esquema GraphQL en JavaScript con type, Query y Mutation para usuarios e intercambios, montado en Express con graphql-http."
+4. "¿Cómo conecto los resolvers de GraphQL con los controladores que ya tengo en Express? Dame un ejemplo sencillo."

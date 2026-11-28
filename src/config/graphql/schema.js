@@ -79,6 +79,40 @@ export const typeDefs = /* GraphQL */ `
         type: String
         user: String
     }
+
+    type Query {
+        "Todos los usuarios (getUsers)."
+        users: [User!]!
+        "Usuario por id (getUserById)."
+        user(id: ID!): User
+        "Usuario por email (getUserByEmail)."
+        userByEmail(email: String!): User
+        "Usuario que ha iniciado sesión (getActiveUser)."
+        me: User
+        "Intercambios, con filtros opcionales (obtainExchanges)."
+        exchanges(filter: ExchangeFilter): [Exchange!]!
+        "Intercambio por id."
+        exchange(id: ID!): Exchange
+        "Selección del dashboard; sin email, la del usuario de la sesión."
+        selection(email: String): Selection!
+    }
+
+    type Mutation {
+        "Crea un usuario (setUser)."
+        createUser(input: UserInput!): User!
+        "Actualiza los campos indicados de un usuario."
+        updateUser(id: ID!, input: UserUpdateInput!): User!
+        "Borra un usuario (removeUserById)."
+        removeUser(id: ID!): Boolean!
+        "Crea un intercambio (createExchange)."
+        createExchange(input: ExchangeInput!): Exchange!
+        "Actualiza los campos indicados de un intercambio."
+        updateExchange(id: ID!, input: ExchangeUpdateInput!): Exchange!
+        "Borra un intercambio (removeExchange)."
+        removeExchange(id: ID!): Boolean!
+        "Guarda la selección del dashboard; sin email, la del usuario de la sesión."
+        setSelection(exchangeIds: [ID!]!, email: String): Selection!
+    }
 `;
 
 /** Esquema ejecutable. */

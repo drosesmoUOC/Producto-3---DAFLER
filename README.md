@@ -22,9 +22,9 @@ Backend de la plataforma de tándem lingüístico: un servicio web con Express, 
 10. Video explicativo
 
 ### División de las tareas:
-Florian 1-4
-Daniel 
-Erik 
+Florian: 1-3
+Daniel: 7
+Erik: 4-6
 
 ## Uso de IA
 
@@ -37,3 +37,7 @@ Erik
 
 2. Herramienta utilizada: **ChatGPT** (OpenAI).
 "Dame un ejemplo de cómo organizar rutas, controladores y validaciones en Express con JavaScript, cada uno en su carpeta, para un CRUD de usuarios guardados en memoria con un Map."
+
+### GraphQL
+
+3. "Dame un ejemplo de esquema GraphQL en JavaScript con type, Query y Mutation para usuarios e intercambios, montado en Express con graphql-http."
